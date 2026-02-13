@@ -16,6 +16,7 @@
 
         <div class="gif-container">
             <img id="cat-gif" src="https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif" alt="cute character">
+            <img id="cat-gif" src="music/originalphoto.jpg" alt="celebrating" onclick="changePhoto()">
         </div>
 
         <div class="buttons">
@@ -30,6 +31,12 @@
     </audio>
 
     <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script>
+        function changePhoto() {
+            document.getElementById('cat-gif').src = "music/yesphoto.jpg";
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
