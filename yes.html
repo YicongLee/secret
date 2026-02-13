@@ -20,6 +20,7 @@
         </div>
 
         <p class="yes-message">💕Happy Valentines Day💕 </p>
+        <div id="valentine-message">💕 Happy Valentine's Day! 💕</div>
     </div>
 
     <audio id="bg-music" loop>
@@ -30,8 +31,11 @@
 
     <script>
         function changePhoto() {
-            document.getElementById('cat-gif').src = "music/yesphoto.jpg";
-        }
+        var gif = document.getElementById('cat-gif');
+        gif.src = "music/yesphoto.jpg";               
+        gif.classList.add('big-photo');                
+        document.getElementById('valentine-message').style.display = 'block'; 
+    }
     </script>
 
     <script src="yes-script.js"></script>
