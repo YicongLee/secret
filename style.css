@@ -204,3 +204,19 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+.big-photo {
+    width: 350px 
+    height: auto 
+    display: block;
+    margin: 20px auto;
+    transition: width 0.3s;
+}
+#valentine-message {
+    display: none;             
+    color: #e6397e;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
