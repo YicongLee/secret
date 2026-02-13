@@ -16,7 +16,7 @@
         <h1 class="yes-title">Yay! I knew you just my best boyfrined! 💕 </h1>
 
         <div class="gif-container">
-            <img id="cat-gif" src="https://media.tenor.com/eNHbizSfVb0AAAAj/lovemode-cute.gif" alt="celebrating">
+            <img id="cat-gif" src="https://media.tenor.com/eNHbizSfVb0AAAAj/lovemode-cute.gif" alt="celebrating" onclick = "changePhoto()">
         </div>
 
         <p class="yes-message">💕Happy Valentines Day💕 </p>
@@ -27,6 +27,12 @@
     </audio>
 
     <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script>
+        function changePhoto() {
+            document.getElementById('cat-gif').src = "music/yesphoto.jpg";
+        }
+    </script>
 
     <script src="yes-script.js"></script>
 </body>
