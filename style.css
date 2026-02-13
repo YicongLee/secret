@@ -206,11 +206,12 @@ h1 {
 }
 
 .big-photo {
-    width: 350px 
-    height: auto 
+    width: 350px;
+    height: auto;
     display: block;
     margin: 20px auto;
-    transition: width 0.3s;
+    transition: width 0.8s;
+    animation: fadeIn 2s ease 0.1s both;
 }
 #valentine-message {
     display: none;             
@@ -222,5 +223,5 @@ h1 {
 }
 #valentine-message.show {
     display: block;
-    animation: fadeIn 1s ease 0.1s both;
+    animation: fadeIn 2s ease 0.1s both;
 }
